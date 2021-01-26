@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		<h2>Informacion sobre el producto</h2>
+	<div>
+		<fieldset>
+		<legend>Datos basicos</legend> <br/> <br/>
+		<label for="nombre"> Nombre </label> <br/>
+			<input type="text" name="nombre" value="" /> <br/> <br/>
+			<label for="descripcion">Descripción del producto</label> <br/>
+			<textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea> <br/>
+		<legend>Foto</legend>
+			<input type="file" name="foto" /> <br/>
+			<input name="contador" type="checkbox" value="visitas"/> Añadir contador de visitas
+		</fieldset>
+
+		<br/><br/>
+
+		<fieldset>
+		<legend>Datos Económicos</legend> <br/> <br/>
+		<label for="precio"> Precio <input type="text" name="nombre" value="" /> €
+		<label for="so">Impuestos</label> 
+			<select id="im" name="im">
+			<option value="4%" selected="selected">4%</option>
+			<option value="7%">7%</option>
+			<option value="16%">16%</option>
+			<option value="25%">25%</option>
+			</select> <br/><br/>
+
+		<spam>Promocion</spam> <br/>		
+			<input type="radio" name="Ninguno" value="Ninguno" checked="checked" id="promocion1" />
+			 Ninguno <br/>
+			<input type="radio" name="Transporte" value="Transporte" /> Transporte gratuito <br/>
+			<input type="radio" name="Descuento" value="Descuento" /> Descuento del 5% <br/>
+		</fieldset>
+	</div>
+</body>
+</html>
